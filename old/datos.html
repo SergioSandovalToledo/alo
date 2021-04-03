@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class= "navbar">
+        <a href="index.html">HOME </a>
+        
+        <a href="datos.html"class="fondonavbar">Datos </a>
+        
+        <a href="recibo.html">Recibo </a>
+        
+    </div>
+
+        <!--CONTENEDOR-->
+    <!--INICIO FORMULARIO-->
+        <!--Method GET LOS Input se ven en la html-->
+        <!--Method POST Version final para el usuario-->
+        <h1 id="titulo">Datos del Perrito</h1>
+        <div id="formulario">
+
+
+            <form action="recibo.html" method="GET"><!--CON POST NO SALE LO ESCRITO EN LA URL-->
+                <table id="tabla_formulario">
+                    
+                        <label for="txtNombre">Nombre del Perrito:</label> 
+                        <input type="text" name="txtNombre" id="txtNombre">
+
+                        <label for="txtDueno">Nombre del Dueño:</label> 
+                        <input type="text" name="txtDueno" id="txtDueno">
+
+                        <label for="txtFecha">Fecha:</label> 
+                        <input type="date" name="txtFecha" id="txtFecha">
+
+                        <label for="txtImagen">Imagen del Perrito:</label> 
+                        <input type="file" name="txtImagen" id="txtImagen">
+
+                        <label for="txtEdad">Edad del Perrito:</label> 
+                        <input type="number" name="txtEdad" id="txtEdad">
+
+                        <label for="txtPass">Contraseña:</label> 
+                        <input type="password" name="txtPass" id="txtPass">
+
+                        <input type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-verde"> 
+                        <input type="reset" name="btnLimpiar" id="btnLimpiar" class="btn btn-rojo"> 
+                        
+                    
+                </table>
+            </form>
+        </div>
+        <!--FIN FORMULARIO-->
+        <!--
+            etiqueta#nombre= id por ejemplo div#formulario = <div id="formulario"
+            etiqueta.nombre= CSS por ejemplo div.formulario = <div class="formulario"
+        -->
+    <footer>
+        <div id="Piedepagina">
+            <h2>Pagina creada por la compañia de los k del duoc 2021</h2>
+            <img src=""alt="">
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Perritos</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="IMG/logo.png" alt="">
+            </div>
+            <nav>
+                <li><a href="">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#perritos">Perritos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </nav>
+        </header>
+        <section class="banner">
+            <div class="banner-img"></div>
+            <h1>Me llamo</h1>
+            <h2>El Firulais del 8</h2>
+            <a href=""class="banner-btn">Contacto</a>
+        </section> 
+
+        <section class="sobremi" id="sobremi">
+            <h3 class="sobremi-titulo">Sobre Mi</h3>
+            <ul class="sobremi-contenido">
+                <li class="sobremi-izq"></li>
+                <li class="sobremi-der">
+                    <h2>Soy el Mata Pacos</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis cum eveniet quibusdam ullam autem ut et ad. Dicta distinctio officia, culpa quis nobis repudiandae quidem.</p>
+                    <a href=""class="sobremi-btn">Informacion</a>
+                </li>
+            </ul>
+        </section>
+        <section class="perritos" id="perritos">
+            <h3 class="perritos-titulo">Perritos</h3>
+            <ul class="perritos-contenido">
+                <li>
+                    <i class="fas fa-dog"></i>
+                    <h4>Servicio 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, optio.</p>
+
+                </li>
+                <li>
+                    <i class="fa fa-bone"></i>
+                    <h4>Servicio 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, optio.</p>
+
+                </li>
+                <li>
+                    <i class="fa fa-paw"></i>
+                    <h4>Servicio 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, optio.</p>
+                </li>
+            </ul>
+
+        </section>
+        <section class="contacto" id="contacto">
+            <h3 class="contacto-titulo"></h3>
+            <ul class="contacto-contenido">
+                <li class="contacto-izq">
+                    <div id="formulario">
+    
+    
+                        <form action="recibo.html" method="GET"><!--CON POST NO SALE LO ESCRITO EN LA URL-->
+                            <table id="tabla_formulario">
+                                
+                                    <label for="txtNombre">Nombre del Perrito:</label> 
+                                    <input type="text" name="txtNombre" id="txtNombre">
+            
+                                    <label for="txtDueno">Nombre del Dueño:</label> 
+                                    <input type="text" name="txtDueno" id="txtDueno">
+            
+                                    <label for="txtFecha">Fecha:</label> 
+                                    <input type="date" name="txtFecha" id="txtFecha">
+            
+                                    <label for="txtImagen">Imagen del Perrito:</label> 
+                                    <input type="file" name="txtImagen" id="txtImagen">
+            
+                                    <label for="txtEdad">Edad del Perrito:</label> 
+                                    <input type="number" name="txtEdad" id="txtEdad">
+            
+                                    <label for="txtPass">Contraseña:</label> 
+                                    <input type="password" name="txtPass" id="txtPass">
+            
+                                    <input type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-verde"> 
+                                    <input type="reset" name="btnLimpiar" id="btnLimpiar" class="btn btn-rojo"> 
+                                    
+                                
+                            </table>
+                        </form>
+                    </div>
+                </li>
+                <li class="contacto-der">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.266768026587!2d-70.58078458479675!3d-33.59838218073181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d7037854df81%3A0x893f58a1479b8f82!2sDuoc%20UC%3A%20Sede%20Puente%20Alto!5e0!3m2!1ses!2scl!4v1617157727443!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </li>
+            </ul>
+            
+
+        </section>
+        <footer>
+            <p>TODOS LOS DERECHOS RESERVADOS A MIS PERRIS @COPYRIGHT 2021 </p>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
