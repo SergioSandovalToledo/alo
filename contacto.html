@@ -73,7 +73,7 @@
           <div class="row">
               <div class="col-sm-2"></div>
               <div class="col-sm-8">
-                    <form action="recibo.html" method="GET"><!--CON POST NO SALE LO ESCRITO EN LA URL-->
+                    <form action="recibo.html" method="GET" id="formulario"><!--CON POST NO SALE LO ESCRITO EN LA URL-->
                         <div class="form-group ">
                             <label for="txtNombre">Nombre del Perrito:</label> 
                             <input type="text" name="txtNombre" id="txtNombre" class="form-control">
@@ -113,6 +113,7 @@
                             
                         </table>
                     </form>
+                    <p id="Error"></p>
                 </div>
               </div>
               <div class="col-sm-2"></div>
@@ -120,5 +121,6 @@
           </div>
 
       </div>
+      <script src="JS/javascript.js"></script>
 </body>
 </html>
